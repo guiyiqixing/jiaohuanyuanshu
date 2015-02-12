@@ -1,0 +1,12 @@
+{application, jiaohuanyuanshu,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { jiaohuanyuanshu_app, []}},
+  {env, []}
+ ]}.
